@@ -18,3 +18,9 @@ for (let i = 0; i < imgs.length; i++) {
 }
 
 
+// add h2 inner text
+const headers = document.getElementsByTagName("h2");
+for (let i = 0; i < headers.length; i++) {
+ headers[i].innerText = "Guilherme is Awesome";
+}
+
