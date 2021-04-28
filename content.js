@@ -16,11 +16,10 @@ for (let i = 0; i < imgs.length; i++) {
   const randomImg = Math.floor(Math.random() * willSmithImages.length);
   imgs[i].src = willSmithImages[randomImg]
 }
-
-
 const headers = document.getElementsByTagName("h2");
 for (let i = 0; i < headers.length; i++) {
  headers[i].innerText = "Guilherme is Awesome";
 }
+
 
 
