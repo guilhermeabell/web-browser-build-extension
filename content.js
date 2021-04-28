@@ -23,6 +23,4 @@ for (let i = 0; i < headers.length; i++) {
  headers[i].innerText = "Guilherme is Awesome";
 }
 
-let body = document.querySelectorAll("#video-title");
-...
 
